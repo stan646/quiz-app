@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="asset/css/all.css">
+</head>
+<body>
+    
+    <!-- top header -->
+
+    <div class="top-header">
+        <!-- left icon -->
+
+        <div class="icon">
+            <i class="far fa-keyboard"></i>
+        </div>
+
+        <!-- Quiz title -->
+
+        <div class="Q-title">
+            <h3>Hypertext MarkUp Langauge</h3>
+        </div>
+
+        <!-- close icon > back to home page -->
+
+        <div class="close-icon">
+           <i class="fa-solid fa-xmark" id="close" onclick="close1();"></i> 
+        </div>
+    </div>
+
+    <!-- Quiz number -->
+
+     <div class="Q-number">
+        <p>Quiz: 1 - 30</p>
+     </div>
+
+     <!-- Quiz time -->
+
+     <div class="Q-time">
+        <p>01:30 Min</p>
+     </div>
+
+     <hr>
+
+     <!-- Area/container for holding questions -->
+
+     <div class="Q-container">
+        <p>1. Who was the first president of USA Who was 
+            the first president of USA Who was the first president of USA....?</p>
+     </div>
+
+     <!-- inputs fields for the user to submit answer -->
+
+     <div class="inputs-container">
+        <button id="btn-btn" value="A" ><span id="left-side">A</span> <span id="center" >Hypertext Markup Langauge</span></button>
+        <button id="btn-btn" value="B" ><span id="left-side">B</span> <span id="center">Hypertext MarkUp Langauge1</span></button>
+        <button id="btn-btn" value="C" ><span id="left-side">C</span> <span id="center"></span>Cascanding Style Sheet</button>
+        <button id="btn-btn" value="E" ><span id="left-side">D</span> <span id="center">Cascanding Style Sheet</span></button>
+     </div>
+
+     <!-- submit button -->
+
+     <button class="btn" onclick="demo();">Submit</button>
+
+
+
+
+
+
+
+     <!-- javascript link -->
+      <script src="javascript/main.js"></script>
+
+</body>
+</html>
